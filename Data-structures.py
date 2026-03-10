@@ -34,3 +34,13 @@ print(mynew_list)
 #Elements can be inserted at the a specified location
 mynew_list.insert(1, 'flower') #the insertion must be between 0 and the length of the list.
 print(mynew_list)
+#.extend method can be used to append multiple elements to a list
+x = ['bird', 1, 5]
+x.extend(['hello',1,2,3,])
+print(x)
+mynew_list.sort()
+print(mynew_list)
+#secondary sorting by sort key e.g
+mynew_list.sort(key=len)
+print(mynew_list)
+
